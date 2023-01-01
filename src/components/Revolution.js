@@ -346,7 +346,7 @@ export default function Revolution(props) {
           </Grid>
         </Grid>
         <Grid item lg style={{ alignSelf: "center" }}>
-          <img src={review} width="100%" alt="magnifying Glass" />
+          <img src={review} width="100%" style={{maxWidth:"35em"}} alt="magnifying Glass" />
         </Grid>
       </Grid>
       <Grid
@@ -435,7 +435,7 @@ export default function Revolution(props) {
           </Grid>
         </Grid>
         <Grid item lg style={{ alignSelf: "center" }}>
-          <img src={review} alt="magnifying glass" width="100%" />
+          <img src={review} alt="magnifying glass" style={{maxWidth:"35em"}} width="100%" />
         </Grid>
       </Grid>
       <Grid

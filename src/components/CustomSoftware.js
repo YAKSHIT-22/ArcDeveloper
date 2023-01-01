@@ -198,7 +198,7 @@ export default function CustomSoftware(props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item container alignItems={matchesMD ? "center" : undefined} direction={matchesMD ? "column" : "row"} justify="space-between"  className={classes.rowContainer}>
+      <Grid item container alignItems={matchesMD ? "center" : undefined} direction={matchesMD ? "column" : "row"} justify={matchesMD ? "center" : "space-between"}  className={classes.rowContainer} style={{display: matchesMD ? "grid" : undefined}}>
         <Grid item container className={classes.itemContainer} md style={{marginBottom: matchesMD ? "15em" : 0 }}  direction={matchesSM ? "column" : "row"} >
           <Grid item container direction="column" md >
             <Grid item>
@@ -275,7 +275,7 @@ export default function CustomSoftware(props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item container justify="space-between" alignItems={matchesMD ? "center" : undefined} direction={matchesMD ? "column" : "row"} style={{marginBottom:"15em"}}  className={classes.rowContainer}>
+      <Grid item container justify={matchesMD ? "center" : "space-between"} alignItems={matchesMD ? "center" : undefined} direction={matchesMD ? "column" : "row"} className={classes.rowContainer} style={{display: matchesMD ? "grid" : undefined,marginBottom:"15em"}}>
         <Grid item container direction={matchesSM ? "column" : "row"} className={classes.itemContainer} md style={{marginBottom: matchesMD ? "15em" : 0 }}>
           <Grid item container direction="column" md >
             <Grid item>

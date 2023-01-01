@@ -68,14 +68,14 @@ export default function Footer(props) {
       <Hidden mdDown>
       <Grid container justify="center" className={classes.mainContainer}>
         <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid container direction="column" spacing={2} style={{margin:0}}>
                 <Grid item className={classes.link} component={Link} to="/" onClick={()=> props.setValue(0)}>
                     Home
                 </Grid>
             </Grid>
         </Grid>
         <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid container direction="column" spacing={2} style={{margin:0}}>
                 <Grid item className={classes.link} component={Link} to="/services" onClick={()=> {props.setValue(1);props.setSelectedIndex(0)}}>
                     Services
                 </Grid>
@@ -91,7 +91,7 @@ export default function Footer(props) {
             </Grid>
         </Grid>
         <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid container direction="column" spacing={2} style={{margin:0}}>
                 <Grid item className={classes.link} component={Link} to="/revolution" onClick={()=> props.setValue(2)}>
                     The Revolution
                 </Grid>
@@ -107,7 +107,7 @@ export default function Footer(props) {
             </Grid>
         </Grid>
         <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid container direction="column" spacing={2} style={{margin:0}}>
                 <Grid item className={classes.link} component={Link} to="/about" onClick={()=> props.setValue(3)}>
                     About Us
                 </Grid>
@@ -120,7 +120,7 @@ export default function Footer(props) {
             </Grid>
         </Grid>
         <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid container direction="column" spacing={2} style={{margin:0}}>
                 <Grid item className={classes.link} component={Link} to="/contact" onClick={()=> props.setValue(4)}>
                     Contact Us
                 </Grid>
